@@ -1,0 +1,107 @@
+/* CSS Document */
+a { 
+color: #2e2e2e; 
+text-decoration: underline;
+} 
+a:hover { 
+color: red; 
+text-decoration: underline; 
+} 
+.image
+{
+width: 952px;
+height: 110px;
+color:#2E2E2E;
+padding:10px 20px 10px 20px;
+}
+.texta1 
+{
+	width:106px; height:15px;
+ font-size: 11px;
+ background-color: #E2E2E2;
+ border: 1px solid #458989;
+ padding:2px 2px 2px 2px;
+ text-align:Left;
+}
+.font
+{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:30px;
+color:#2e2e2e;
+text-transform:Normal;
+font-weight:600;
+text-align:center;
+}
+.userlogin {
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+color:#FFFFFF;
+height:24;
+text-decoration:none;
+text-transform:uppercase;
+font-weight:bold;
+}
+.text1
+{
+width:435px;
+height:25;
+border:1px #006BD7 solid;
+background-color:#C6FFFF;
+text-align:left;
+color:red;
+padding:5px 3px 5px 3px;
+}
+.indexing
+ {
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:13px;
+color:#6363B1;
+text-decoration:none;
+font-weight:600;
+}		
+.paragraping
+{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;
+color:#0D0D0D;
+padding:10px 5px 10px 5px;
+text-decoration:none;
+font-weight:Normal;
+line-height:1.7em;
+}
+.servlet
+ {
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;
+font-color:#000;
+text-decoration:none;
+text-transform:uppercase;
+font-weight:600;
+}
+.button1 {
+   
+	border: 1px solid #458989;
+    background: #CCE6E6;
+	padding:1px 1px 1px 1px;
+}
+.button1:hover {
+   border: 1px solid #FF0000;
+    background: #FF0000;
+	color:#FFFFFF;  
+}
+.button2 {
+   
+	border: 1px solid #458989;
+    background: #CCE6E6;
+	padding:1px 6px 1px 6px;
+}
+.button2:hover {
+   border: 1px solid #FF0000;
+    background: #FF0000;
+	color:#FFFFFF;  
+}
+
+.fileupload
+{
+	background-image:url(images/fileupload.jpg);
+}

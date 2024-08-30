@@ -1,0 +1,3 @@
+H:\my projects\BE project\Fuzzysourcecode\obj\Debug\BEPROJECT.csprojResolveAssemblyReference.cache
+F:\Basavesvara Hospital project\Fuzzysourcecode\obj\Debug\BEPROJECT.csproj.AssemblyReference.cache
+F:\Basavesvara Hospital project\Fuzzysourcecode\obj\Debug\BEPROJECT.csproj.CoreCompileInputs.cache

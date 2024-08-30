@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{24973A9B-9115-428F-B5AE-6F6A92A6849A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>ClassLibrary</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>BEPROJECT</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="cloudsearch.aspx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="css\style.css" />
+    <Content Include="dataowner.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="downloadfile.aspx" />
+    <Content Include="fuzzyheader.ascx" />
+    <Content Include="images\admin_icon3.gif" />
+    <Content Include="images\bgimg.jpg" />
+    <Content Include="images\bg_thead.gif" />
+    <Content Include="images\cloud.jpg" />
+    <Content Include="images\dataowner.jpg" />
+    <Content Include="images\fileupload.jpg" />
+    <Content Include="images\footer-l.png" />
+    <Content Include="images\header_bg.jpg" />
+    <Content Include="images\owner.jpg" />
+    <Content Include="images\reg.jpg" />
+    <Content Include="images\Search-icon.png" />
+    <Content Include="images\search.jpg" />
+    <Content Include="images\searchimage.jpg" />
+    <Content Include="images\searchimg.jpg" />
+    <Content Include="images\searchmatch.jpg" />
+    <Content Include="images\upload.jpg" />
+    <Content Include="images\User-icon.png" />
+    <Content Include="images\vertical.jpg" />
+    <Content Include="login.aspx" />
+    <Content Include="matching.aspx" />
+    <Content Include="mobile.aspx" />
+    <Content Include="register.aspx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="sample.aspx" />
+    <Content Include="userdetails.aspx" />
+    <Content Include="userinmobile.aspx" />
+    <Content Include="userlist.aspx" />
+    <Content Include="usersview.aspx" />
+    <Content Include="view.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Code\encryption.cs" />
+    <Compile Include="App_Code\MsgBox.cs" />
+    <Compile Include="App_Code\search.cs" />
+    <Compile Include="cloudsearch.aspx.cs">
+      <DependentUpon>cloudsearch.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="dataowner.aspx.cs">
+      <DependentUpon>dataowner.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="downloadfile.aspx.cs">
+      <DependentUpon>downloadfile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="fuzzyheader.ascx.cs">
+      <DependentUpon>fuzzyheader.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="matching.aspx.cs">
+      <DependentUpon>matching.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="mobile.aspx.cs">
+      <DependentUpon>mobile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="register.aspx.cs">
+      <DependentUpon>register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sample.aspx.cs">
+      <DependentUpon>sample.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="userdetails.aspx.cs">
+      <DependentUpon>userdetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="userinmobile.aspx.cs">
+      <DependentUpon>userinmobile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="userlist.aspx.cs">
+      <DependentUpon>userlist.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="usersview.aspx.cs">
+      <DependentUpon>usersview.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="view.aspx.cs">
+      <DependentUpon>view.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>
